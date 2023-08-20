@@ -1,0 +1,300 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good day",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello, welcome to the AI chatbot.",
+        "Hi, nice to meet you. I am the AI chatbot.",
+        "Hey, how are you? I am the AI chatbot.",
+        "Good day, thank you for choosing the AI chatbot.",
+        "Good morning, hope you have a great day. I am the AI chatbot.",
+        "Good afternoon, how can I help you? I am the AI chatbot.",
+        "Good evening, what can I do for you? I am the AI chatbot."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "Take care",
+        "Have a nice day",
+        "Have a good night"
+      ],
+      "responses": [
+        "Bye, thank you for using the AI chatbot.",
+        "Goodbye, hope to see you again soon. I am the AI chatbot.",
+        "See you, have a wonderful day. I am the AI chatbot.",
+        "Take care, stay safe and healthy. I am the AI chatbot.",
+        "Have a nice day, it was a pleasure talking to you. I am the AI chatbot.",
+        "Have a good night, sweet dreams. I am the AI chatbot."
+      ]
+    },
+    {
+      "tag": "definition of ai",
+      "patterns": [
+        "What is artificial intelligence?",
+        "Define artificial intelligence",
+        "Explain artificial intelligence",
+        "Artificial intelligence meaning"
+      ],
+      "responses": [
+        "Artificial intelligence is the branch of computer science that deals with creating machines or software that can perform tasks that normally require human intelligence, such as reasoning, learning, decision making, natural language processing, computer vision, speech recognition, etc.",
+        "According to Wikipedia, artificial intelligence (AI) is intelligence demonstrated by machines, unlike the natural intelligence displayed by humans and animals, which involves learning, reasoning, and self-correction.",
+        "Artificial intelligence is the simulation of human intelligence processes by machines or software, especially computer systems. These processes include learning (acquiring information and rules for using it), reasoning (using rules to reach conclusions), and self-correction (adapting to new situations or data).",
+        "The meaning of artificial intelligence is the ability of machines or software to perform tasks that normally require human intelligence. Some examples of artificial intelligence are self-driving cars, virtual assistants, chess-playing computers, facial recognition systems, etc."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "Whats your name?",
+        "Do you have a name?",
+        "your name?",
+        "Who are you?"
+      ],
+      "responses": [
+        "My Creators named me Jarvis",
+        "I'm called Jarvis",
+        "Jarvis they call me"
+      ]
+    },
+    {
+      "tag": "definition of ml",
+      "patterns": [
+        "What is Machine Learning?",
+        "What is ml?",
+        "Explain Machine Learning",
+        "Explain ML",
+        "Meaning of machine learning",
+        "meaning of ml",
+        "define machine learning",
+        "definition of machine learning"
+      ],
+      "responses":[
+        "The use and development of computer systems that are able to learn and adapt without following explicit instructions, by using algorithms and statistical models to analyse and draw inferences from patterns in data.",
+        "Machines learning automatically without being explicitly programmed or learning without any direct human intervention"
+      ]
+    },
+    {
+      "tag": "definition of DL",
+      "patterns": [
+        "What is Deep Learning?",
+        "What is dl?",
+        "Explain Deep Learning",
+        "Explain DL",
+        "Meaning of deep learning",
+        "meaning of dl",
+        "define deep learning",
+        "definition of deep learning"
+      ],
+      "responses":[
+        "A type of machine learning based on artificial neural networks in which multiple layers of processing are used to extract progressively higher level features from data.",
+        "Deep learning is a subset of machine learning, which is essentially a neural network with three or more layers."
+      ]
+    },
+    {
+      "tag": "ML Projects",
+      "patterns": [
+        "Tell me about the projects we built.",
+        "What are the projects we built?",
+        "List the projects we built",
+        "List the projects that we built",
+        "What are the projects that we built?",
+        "Tell me about the projects",
+        "What are the projects?",
+        "List the projects we built"
+      ],
+      "responses":[
+        "The Projects we built were based on Computer Vision. PPE Violation Detection, Motion Detection, People Counting were some of the projects that we built"
+      ]
+    },
+    {
+      "tag": "PPE-Violation-Detection",
+      "patterns": [
+        "Tell me about the PPE Violation Detection.",
+        "Explain PPE Violation Detection",
+        "What is PPE Violation Detection?"
+      ],
+      "responses":[
+        "An Object Detection Project that used Yolov7 pre-trained model trained on custom dataset in which the user gets an interactive UI to upload video or live inference. A bounding box is produced on people labelling them with no helmet, no jacket, safe, unsafe and sends an alert email."
+      ]
+    },
+    {
+      "tag": "Motion Detection",
+      "patterns": [
+        "Tell me about the Motion Detection.",
+        "Explain Motion Detection",
+        "What is Motion Detection?"
+      ],
+      "responses":[
+        "A Computer Vision Project that compares alternate frames by measuring eucledian distance between them and send an alert email if motion is detected."
+      ]
+    },
+    {
+      "tag": "People Counting",
+      "patterns": [
+        "Tell me about the People Counting.",
+        "Explain People Counting",
+        "What is People Counting?"
+      ],
+      "responses":[
+        "A Computer Vision Project based on Object Detection that counts the total number of people and returns the count."
+      ]
+    },
+    {
+      "tag": "Yolov7",
+      "patterns": [
+        "Tell me about the Yolov7.",
+        "Explain Yolov7",
+        "What is Yolov7?"
+      ],
+      "responses":[
+        "YOLOv7 is a state-of-the-art real-time object detector that surpasses all known object detectors in both speed and accuracy in the range from 5 FPS to 160 FPS."
+      ]
+    },
+    {
+      "tag": "Object Detection",
+      "patterns": [
+        "Tell me about the Object Detection.",
+        "Explain Object Detection",
+        "What is Object Detection?"
+      ],
+      "responses":[
+        "Object detection is a computer vision technique that identifies and classifies a particular object in a particular setting. It deals with detecting instances of semantic objects of a certain class (such as humans, buildings, or cars) in digital images and videos."
+      ]
+    },
+    {
+      "tag": "ANN",
+      "patterns": [
+        "Tell me about the Artificial Neural Network.",
+        "Explain Artificial Neural Network",
+        "What is Artificial Neural Network?",
+        "Tell me about the ANN.",
+        "Explain ANN",
+        "What is ANN?"
+      ],
+      "responses":[
+        "An artificial neural network (ANN) is a computational model that is inspired by the structure and function of the biological neural networks in the brain. It is made up of interconnected nodes, called artificial neurons, which are organized into layers. Each connection between neurons has a weight that adjusts as the network learns from training data1. The output of each neuron is computed by applying a non-linear function to the sum of its inputs, and signals travel from the input layer to the output layer, possibly traversing the layers multiple times."
+      ]
+    },
+    {
+      "tag": "CNN",
+      "patterns": [
+        "Tell me about the Convolutional Neural Network.",
+        "Explain Convolutional Neural Network",
+        "What is Convolutional Neural Network?",
+        "Tell me about the CNN.",
+        "Explain CNN",
+        "What is CNN?"
+      ],
+      "responses":[
+        "A Convolutional Neural Network (CNN) is a type of feed-forward neural network that is designed for processing structured arrays of data such as images. CNNs are widely used in computer vision and have become the state of the art for many visual applications such as image classification, and have also found success in natural language processing for text classification."
+      ]
+    },
+    {
+      "tag": "me",
+      "patterns": [
+        "Do you know about me?",
+        "Do you know who i am?",
+        "Do you know me?",
+        "you know me?",
+        "Who am i?"
+      ],
+      "responses":[
+        "Yes, You are an ML Trainee."
+      ]
+    }
+
+  ]
+}
