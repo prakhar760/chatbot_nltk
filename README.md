@@ -7,7 +7,7 @@ Clone repo and create a virtual environment
 $ git clone https://github.com/python-engineer/chatbot-deployment.git
 $ cd chatbot-deployment
 $ python3 -m venv venv
-$ source venv/bin/activate(for linux)
+$ source venv/bin/activate
 ```
 Install dependencies
 ```
